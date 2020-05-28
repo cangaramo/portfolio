@@ -45,62 +45,8 @@
 
 <script>
 import Project from '@/components/Project'
-const projects = [
-    {
-        id: 0,
-        title: 'Belushop',
-        color: '#519291',
-        year: 2020,
-        description: 'Personal project',
-        tags: '#vue #javascript #firebase #axios',
-        image: 'project-belushop.png'
-    },
-    {
-        id: 1,
-        title: 'What can I cook today?',
-        color: '#4c5388',
-        year: 2020,
-        description: 'Personal project',
-        tags: '#vue #javascript #firebase #axios',
-        image: 'project-whatcanicook.png'
-    },
-    {
-        id: 2,
-        title: 'ScaleUp Institute',
-        color: '#eab757',
-        year: 2019,
-        description: 'Built at Bladonmore',
-        tags: '#vue #javascript #firebase #axios',
-        image: 'project-scaleup.png'
-    },
-    {
-        id: 3,
-        title: 'Flash Pack',
-        color: '#00806a',
-        year: 2020,
-        description: 'Built at Flash Pack',
-        tags: '#php #wordpress #vue',
-        image: 'project-flashpack.png'
-    },
-    {
-        id: 4,
-        title: 'Baring Vostok',
-        color: '#608bbf',
-        year: 2019,
-        description: 'Built at Bladonmore',
-        tags: '#php #wordpress',
-        image: 'project-baring.png'
-    },
-    {
-        id: 5,
-        title: 'Caledonia Private Capital',
-        color: '#3b5988',
-        year: 2019,
-        description: 'Built at Bladonmore',
-        tags: '#php #wordpress',
-        image: 'project-caledonia.png'
-    }
-]
+import projects from '@/data/projects.json'
+
 export default {
     name: 'Home',
     data() {
