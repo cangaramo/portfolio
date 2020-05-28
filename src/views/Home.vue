@@ -16,27 +16,27 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-6 pl-0 pr-4" style="margin-top: 350px">
+        <div class="row single-margin">
+            <div class="col-6 left">
                 <Project :project="projects[0]"></Project>
             </div>
-            <div class="col-6 pr-0 pl-4" style="">
+            <div class="col-6 right">
                 <Project :project="projects[1]"></Project>
             </div>
         </div>
-        <div class="row" style="margin-top: 80px">
-            <div class="col-6 pl-0 pr-4" style="margin-top: 350px">
+        <div class="row single-margin">
+            <div class="col-6 left">
                 <Project :project="projects[2]"></Project>
             </div>
-            <div class="col-6 pr-0 pl-4" style="margin-top: 0">
+            <div class="col-6 right">
                 <Project :project="projects[3]"></Project>
             </div>
         </div>
-        <div class="row" style="margin-top: 80px">
-            <div class="col-6 pl-0 pr-4" style="margin-top: 350px">
+        <div class="row single-margin">
+            <div class="col-6 left">
                 <Project :project="projects[4]"></Project>
             </div>
-            <div class="col-6 pr-0 pl-4" style="margin-top: 0">
+            <div class="col-6 right">
                 <Project :project="projects[5]"></Project>
             </div>
         </div>
@@ -150,4 +150,19 @@ h2 {
     font-weight: 600;
 }
 
+.single-margin {
+    margin-top: 80px;
+}
+
+.left {
+    margin-top: 350px;
+    padding-left: 0;
+    padding-right: 1.5rem !important;
+}
+
+.right {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    margin-top: 0;
+}
 </style>

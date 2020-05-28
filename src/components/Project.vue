@@ -1,6 +1,6 @@
 <template>
-    <div class="project-wrapper px-3">
-        <div :class="`project ${direction} row py-4 pl-4`">
+    <div class="project-wrapper">
+        <div :class="`row project ${direction}`">
             <div class="col-6 info">
                 <h2 :style="`color:${project.color}`">{{ project.title }}</h2>
                 <hr :style="`border-color: ${project.color}`" />
@@ -24,9 +24,9 @@ export default {
         direction() {
             let direction
             if (this.project.id % 2 == 0) {
-                direction = 'left'
+                direction = 'project-left'
             } else {
-                direction = 'right'
+                direction = 'project-right'
             }
             return direction
         },
@@ -40,12 +40,16 @@ export default {
 <style lang="scss">
 .project-wrapper {
     align-items: center;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
     .project {
         background: #f3f3f3;
         transition: transform 0.8s;
         transform: rotate(0deg);
-
-        &.left {
+        padding-top: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+        &.project-left {
             &:hover {
                 cursor: pointer;
                 transition: transform 0.8s;
@@ -53,8 +57,7 @@ export default {
                     rotateY(-15deg);
             }
         }
-
-        &.right {
+        &.project-right {
             &:hover {
                 cursor: pointer;
                 transition: transform 0.8s;
