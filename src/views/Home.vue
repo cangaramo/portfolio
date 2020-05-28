@@ -1,5 +1,5 @@
 <template>
-    <div class="home container">
+    <div class="home container pb-5 mb-5">
         <div id="section1" class="section">
             <div class="d-flex align-items-center h-100">
                 <div>
@@ -59,9 +59,6 @@ export default {
         Project
     },
     methods: {
-        viewHandler(e) {
-            console.log(e)
-        },
         randomString(len, charSet) {
             charSet = charSet || 'fvltDrndFpErote '
             var randomString = ''
@@ -97,11 +94,11 @@ h2 {
 }
 
 .single-margin {
-    margin-top: 80px;
+    margin-top: 160px;
 }
 
 .left {
-    margin-top: 350px;
+    margin-top: 430px;
     padding-left: 0;
     padding-right: 1.5rem !important;
 }

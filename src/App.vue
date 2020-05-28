@@ -15,8 +15,8 @@
     color: #292929;
     //background-color: #f5f5f5;
     height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    // overflow-y: scroll;
+    // overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
 html {
@@ -30,7 +30,8 @@ body {
     margin: 0;
     background-image: url('./assets/background.png');
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 //Container
