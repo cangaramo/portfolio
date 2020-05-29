@@ -11,7 +11,8 @@
                         >
                     </h1>
                     <h1 class="my-4 my-md-4">
-                        I'm a <br class="d-block d-md-none" /><span class="mix"
+                        I'm a <br class="d-block d-md-none" /><span
+                            class="mix"
                             >{{ role }}</span
                         >
                     </h1>
