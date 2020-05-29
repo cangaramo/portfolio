@@ -43,6 +43,14 @@
                 <Project :project="projects[5]"></Project>
             </div>
         </div>
+        <div class="row single-margin">
+            <div class="col-md-6 left">
+                <Project :project="projects[6]"></Project>
+            </div>
+            <div class="col-md-6 right">
+                <Project :project="projects[7]"></Project>
+            </div>
+        </div>
     </div>
 </template>
 

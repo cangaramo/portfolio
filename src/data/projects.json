@@ -2,7 +2,7 @@
     {
       "id": 0,
       "title": "Belushop",
-      "color": "#519291",
+      "color": "#7eccca",
       "year": 2020,
       "description": "Personal project.",
       "tags": "#vue #javascript #firebase #vuex #axios",
@@ -39,7 +39,27 @@
       "image": "project-flashpack.png"
     },
     {
+      "id": 5,
+      "title": "Arq",
+      "color": "#c30019",
+      "year": 2019,
+      "description": "Built while working at Bladonmore.",
+      "tags": "#php #wordpress #jQuery #bootstrap",
+      "image": "project-arq.png",
+      "url": "https://www.arq.com/"
+    },
+    {
       "id": 4,
+      "title": "Caledonia Private Capital",
+      "color": "#3b5988",
+      "year": 2019,
+      "description": "Built while working at Bladonmore.",
+      "tags": "#php #wordpress #jQuery #bootstrap",
+      "image": "project-caledonia.png",
+      "url": "https://caledoniaprivatecapital.com/"
+    },
+    {
+      "id": 6,
       "title": "Baring Vostok",
       "color": "#608bbf",
       "year": 2019,
@@ -49,13 +69,13 @@
       "url": "http://baringvostok.bladedev.co.uk/en/"
     },
     {
-      "id": 5,
-      "title": "Caledonia Private Capital",
-      "color": "#3b5988",
+      "id": 7,
+      "title": "Bladonmore",
+      "color": "#620839",
       "year": 2019,
       "description": "Built while working at Bladonmore.",
       "tags": "#php #wordpress #jQuery #bootstrap",
-      "image": "project-caledonia.png",
-      "url": "https://caledoniaprivatecapital.com/"
+      "image": "project-bladonmore.png",
+      "url": ""
     }
   ]
