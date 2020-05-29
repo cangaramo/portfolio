@@ -4,34 +4,37 @@
       "title": "Belushop",
       "color": "#519291",
       "year": 2020,
-      "description": "Personal project",
-      "tags": "#vue #javascript #firebase #axios",
-      "image": "project-belushop.png"
+      "description": "Personal project.",
+      "tags": "#vue #javascript #firebase #vuex #axios",
+      "image": "project-belushop.png",
+      "url": "http://belushop.s3-website.eu-west-2.amazonaws.com/"
     },
     {
       "id": 1,
       "title": "What can I cook today?",
       "color": "#4c5388",
       "year": 2020,
-      "description": "Personal project",
-      "tags": "#vue #javascript #firebase #axios",
-      "image": "project-whatcanicook.png"
+      "description": "Personal project.",
+      "tags": "#vue #javascript #axios",
+      "image": "project-whatcanicook.png",
+      "url": "http://whatcanicooktoday.s3-website.eu-west-2.amazonaws.com/"
     },
     {
       "id": 2,
       "title": "ScaleUp Institute",
       "color": "#eab757",
       "year": 2019,
-      "description": "Built at Bladonmore",
-      "tags": "#vue #javascript #firebase #axios",
-      "image": "project-scaleup.png"
+      "description": "Built while working at Bladonmore.",
+      "tags": "#php #wordpress #jQuery #bootstrap #mySQL",
+      "image": "project-scaleup.png",
+      "url": "https://www.scaleupinstitute.org.uk/"
     },
     {
       "id": 3,
       "title": "Flash Pack",
       "color": "#00806a",
       "year": 2020,
-      "description": "Built at Flash Pack",
+      "description": "Built while working at Flash Pack.",
       "tags": "#php #wordpress #vue",
       "image": "project-flashpack.png"
     },
@@ -40,17 +43,19 @@
       "title": "Baring Vostok",
       "color": "#608bbf",
       "year": 2019,
-      "description": "Built at Bladonmore",
-      "tags": "#php #wordpress",
-      "image": "project-baring.png"
+      "description": "Built while working at Bladonmore.",
+      "tags": "#php #wordpress #jQuery #bootstrap",
+      "image": "project-baring.png",
+      "url": "http://baringvostok.bladedev.co.uk/en/"
     },
     {
       "id": 5,
       "title": "Caledonia Private Capital",
       "color": "#3b5988",
       "year": 2019,
-      "description": "Built at Bladonmore",
-      "tags": "#php #wordpress",
-      "image": "project-caledonia.png"
+      "description": "Built while working at Bladonmore.",
+      "tags": "#php #wordpress #jQuery #bootstrap",
+      "image": "project-caledonia.png",
+      "url": "https://caledoniaprivatecapital.com/"
     }
   ]

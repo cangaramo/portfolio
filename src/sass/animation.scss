@@ -1,0 +1,88 @@
+.topLeft-enter-active,
+.topLeft-leave-active {
+    animation: fadeInTopLeft 1.5s forwards;
+    -webkit-animation: fadeInTopLeft 1.5s forwards;
+}
+
+.topLeft-enter, .topLeft-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+.swing {
+    -webkit-animation: swing-in-left-bck 2.5s
+        cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation: swing-in-left-bck 2.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        forwards;
+}
+
+@-webkit-keyframes fadeInTopLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, -100%, 0);
+        transform: translate3d(-100%, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInTopLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, -100%, 0);
+        transform: translate3d(-100%, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes swing-in-left-bck {
+    0% {
+        -webkit-transform: rotateY(-70deg);
+        transform: rotateY(-70deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    20% {
+        -webkit-transform: rotateY(-70deg);
+        transform: rotateY(-70deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }
+}
+@keyframes swing-in-left-bck {
+    0% {
+        -webkit-transform: rotateY(-70deg);
+        transform: rotateY(-70deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    20% {
+        -webkit-transform: rotateY(-70deg);
+        transform: rotateY(-70deg);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        opacity: 1;
+    }
+}
