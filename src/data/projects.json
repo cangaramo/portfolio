@@ -44,7 +44,7 @@
       "title": "Arq",
       "color": "#c30019",
       "year": 2019,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap",
       "image": "project-arq.png",
       "url": "https://www.arq.com/"
@@ -54,7 +54,7 @@
       "title": "ScaleUp Institute",
       "color": "#eab757",
       "year": 2019,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap #mySQL",
       "image": "project-scaleup.png",
       "url": "https://www.scaleupinstitute.org.uk/"
@@ -64,7 +64,7 @@
       "title": "Caledonia Private Capital",
       "color": "#3b5988",
       "year": 2019,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap",
       "image": "project-caledonia.png",
       "url": "https://caledoniaprivatecapital.com/"
@@ -74,7 +74,7 @@
       "title": "Bladonmore",
       "color": "#620839",
       "year": 2019,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap",
       "image": "project-bladonmore.png",
       "url": "https://www.bladonmore.com/"
@@ -84,7 +84,7 @@
       "title": "Baring Vostok",
       "color": "#608bbf",
       "year": 2018,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap",
       "image": "project-baring.png",
       "url": "http://baringvostok.bladedev.co.uk/en/"
@@ -94,7 +94,7 @@
       "title": "The Convivialists",
       "color": "#AD9046",
       "year": 2018,
-      "description": "Built while working at Bladonmore.",
+      "description": "",
       "tags": "#php #wordpress #jQuery #bootstrap",
       "image": "project-convivialist.jpg",
       "url": "https://theconvivialists.com/"
