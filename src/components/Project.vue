@@ -2,7 +2,11 @@
     <div class="project-wrapper" v-view="viewHandler">
         <transition name="topLeft">
             <div v-if="show">
-                <a :href="project.url" target="_blank" rel="nofollow">
+                <a
+                    :href="project.url"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                >
                     <div :class="`row project ${direction}`">
                         <div class="col-md-6 info">
                             <div>
