@@ -150,6 +150,7 @@ export default {
 
         .tag {
             font-family: monospace;
+            font-size: 12px;
         }
         hr {
             width: 80px;
